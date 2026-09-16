@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Build for Environment') {
             steps {
-                echo "Building the application for the ${params.ENVIRONMENT} environment...."
+                echo "Building the application for the ${params.ENVIRONMENT} environment......"
             }
         }
     }
